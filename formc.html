@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<style type="text/css">
+	
+	body{
+		font-family: Arial;
+		background-color: grey;
+		padding: 20px;
+	}
+ 	
+	#firstname {
+		
+
+	}
+
+	.box {
+		color: white;
+		border: 5px solid red; 
+		padding: 50px;
+		border-radius: 20px;
+		color: red;
+	}
+
+	#sign-in {
+		font-family: jokerman;
+		font-size: 50px;
+		background-color: red;
+	}
+
+	button {
+		color:red;
+	}
+
+	
+	
+</style>
+
+
+
+<body>
+	<h3 id="sign-in">Sign in</h3>
+
+	<form >
+		<div class="box">
+			<label id="firstname">Firstname</label>
+			<br>
+			<input type="text" name="firstname">
+
+			<br>
+
+			<label id="Surname">Surname</label>
+			<br>
+			<input type="text" name="Surname" >
+
+			<br>
+
+			<label id="email">Email</label>
+			<br>
+			<input type="Email" name="email" >
+
+			<br>
+
+			<label id="phone">Phone</label>
+			<br>
+			<input type="Phone" name="Phone">
+
+			<br>
+			<br>
+
+			<label id="gender">Gender</label>
+			<br>
+			<input type="radio" name="gender" value="male" checked="checked" />
+			Male
+			<br>
+			<input type="radio" name="gender" value="female" />
+			Female
+			<br>
+			<input type="radio" name="gender" value="other" />
+			Other
+
+			<br>
+
+			<button type="submit">Sign in</button>
+		</div>
+	</form>
+</body>
+</html>
